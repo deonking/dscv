@@ -345,51 +345,40 @@ body {
   color: #6b7280;
 }
 
-/* Estilo da seção de preços */
 .price-section {
-    font-family: 'Arial', sans-serif;  /* Definir uma fonte moderna e legível */
-    text-align: center;  /* Centraliza o conteúdo */
-    padding: 20px;
-    background-color: #f4f7f6;  /* Fundo suave para a seção */
-    border-radius: 10px;  /* Bordas arredondadas para um visual mais agradável */
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Sombra para dar destaque */
+  padding: 20px 0;
+  border-top: 1px solid #e5e7eb;
+  border-bottom: 1px solid #e5e7eb;
 }
 
-/* Preço original com risco */
 .old-price {
-    font-size: 18px;  /* Tamanho do texto maior para chamar atenção */
-    color: #9b9b9b;  /* Cor cinza claro para indicar preço anterior */
-    text-decoration: line-through;  /* Risca o preço original */
-    margin-bottom: 10px;
+  font-size: 14px;
+  color: #6b7280;
+  text-decoration: line-through;
+  margin-bottom: 8px;
 }
 
-/* Preço atual com destaque */
 .current-price-line {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 8px;
 }
 
-/* Preço atual com destaque */
 .current-price {
-    font-size: 28px; /* Preço grande para chamar a atenção */
-    font-weight: bold;  /* Deixar o preço em negrito para maior destaque */
-    color: #e91e63;  /* Cor vibrante (rosa/vermelho) para destacar o preço com desconto */
-    margin-right: 10px;  /* Espaçamento entre o preço e o desconto */
+  font-size: 32px;
+  font-weight: 700;
+  color: #059669;
 }
 
-/* Badge de desconto */
 .discount-badge {
-    background-color: #ff9800; /* Cor de destaque laranja vibrante */
-    color: #fff; /* Texto branco para contraste */
-    padding: 8px 15px;
-    font-size: 18px;
-    border-radius: 25px;
-    font-weight: bold;
-    text-transform: uppercase;
-    letter-spacing: 1px;
+  background: #ef4444;
+  color: white;
+  padding: 4px 8px;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 600;
 }
-
 
 .installments {
   font-size: 14px;
